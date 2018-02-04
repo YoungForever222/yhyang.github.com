@@ -52,21 +52,21 @@
           </div>
         </div>    
         <div class="h3">Idea</div>
-        <div class="h2">Machine learning and data mining provide a new opportunity to the classical CFD。We are now interested in combining these two subjects to a new world。</div>
-        <div class="h2">我们通过符号拟合、决策树和随机森林对一个二维方腔流流场进行拟合，结果如下：</div>
+        <div class="h2">Machine learning and data mining provide a new opportunity to the classical CFD. We are now interested in combining these two subjects to a new world.</div>
+        <div class="h2">Here we use the Symbolic Regression, DT and RFs to regress a 2D lid-driven cavity, the resutls are as follows:</div>
         <div class="h2">
           <div class="projectpic"><a href="images/cavity-regression.png"><img src="images/cavity-regression.png" alt="Project1" width="104" height="84" border="0" /></a></div>
           <div class="projectpic">
             <div align="right"><a href="images/compare.png"><img src="images/compare.png" alt="Project2" width="105" height="84" border="0" /></a></div>
           </div>
         </div>
-        <div class="h2">对比三种方法对二维曲面的拟合，可以明显发现符号拟合在此问题中不具有优势，但随机森林表现稳定。</div>
+        <div class="h2">Comparing among these three results, the RFs are stable while the SR is failed.</div>
       </div>
       <div class="mid">
-        <div class="h1">基于卷积神经网络的数值模拟</div>
+        <div class="h1">CFD based on CNNs</div>
         <div class="mid_h2">利用卷积神经网路学习时间推进过程中流场的演化方式，并对流场未来的状态进行预测。</div>
         <div class="mid_text"><span class="mid_h3">卷积神经网络被广泛应用于图像处理与识别。</span>Oliver Hennigh利用卷积算子代替通常LBM方法中的碰撞、迁移过程中数组的变换与赋值，并通过TensorFlow加以实现。</div>
-        <div class="mid_text">因此希望通过<span class="mid_h3">卷积神经网络</span>学习流场演化的过程，构建基于数据的流场求解方法。</div>
+        <div class="mid_text">So, here we are using the <span class="mid_h3">CNNs</span>regress the development of the flow field, by which we can build a new method of CFD</div>
         <div class="mid_text"><a href="https://github.com/loliverhennigh/Lattice-Boltzmann-fluid-flow-in-Tensorflow" class="button">CNN-LBM </a>
           <a href="https://github.com/loliverhennigh/Phy-Net" class="button">Phy-Net </a>
         </div>
