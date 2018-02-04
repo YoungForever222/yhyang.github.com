@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>于汇洋个人主页</title>
+<!--[if lt IE 7]>
+        <script type="text/javascript" src="unitpngfix.js"></script>
+<![endif]--> 
+<link href="./index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <div id="main">
+    <div id="topheader">
+
+    </div>
+    <div id="menu_area">
+      <div class="menuarea">
+        <div class="menutext"><a href="http://home.ustc.edu.cn/~yu222/" class="menu_hover">主页</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="https://github.com/YoungForever222" class="menu">GitHub</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="#" class="menu">个人简历</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="./html/Download.html" class="menu">资料下载</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="#" class="menu">成果展示</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="https://weibo.com/u/3936645743?refer_flag=1001030101_&is_hot=1" class="menu">微博</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="http://202.38.87.44:8080/forum.php" class="menu">BBS</a></div>
+        <div class="menu_divider"></div>
+        <div class="menutext"><a href="http://www.ustc.edu.cn/" class="menu">USTC</a></div>
+      </div>
+    </div>
+    <div id="body_area">
+      <div class="left">
+        <div class="h1">机器学习</div>
+        <div class="left_text">
+          <div align="left"> As one often expects with modern DNNs, performance gains are achieved over competing state-of-the-art methods, suggesting
+        that DNNs may play a critically enabling role in the future of modelling complex flows. </div>
+        </div>
+        <div class="left_text">
+          <div align="left">—J. Nathan Kutz(J. Fluid Mech. vol. 814)</div>
+        </div>
+        <div class="left_text">
+          <div class="h2">常用开源代码库(Python)</div>
+          <div align="left">
+            <p><a href="https://tensorflow.google.cn/?hl=zh-cn" class="left_menu">TensorFlow</a></p>
+            <p><a href="http://scikit-learn.org/stable/" class="left_menu">Scikit-Learn</a></p>
+            <p><a href="http://gplearn.readthedocs.io/en/latest/#" class="left_menu">gplearn</a></p>
+          </div>
+        </div>    
+        <div class="h3">思路</div>
+        <div class="h2">机器学习及数据挖掘算法飞速发展为流体力学问题带来了新的活力。我们关注于如何将其合理并有效地应用于流场模拟、数据分析、模型建立。</div>
+        <div class="h2">我们通过符号拟合、决策树和随机森林对一个二维方腔流流场进行拟合，结果如下：</div>
+        <div class="h2">
+          <div class="projectpic"><a href="images/cavity-regression.png"><img src="images/cavity-regression.png" alt="Project1" width="104" height="84" border="0" /></a></div>
+          <div class="projectpic">
+            <div align="right"><a href="images/compare.png"><img src="images/compare.png" alt="Project2" width="105" height="84" border="0" /></a></div>
+          </div>
+        </div>
+        <div class="h2">对比三种方法对二维曲面的拟合，可以明显发现符号拟合在此问题中不具有优势，但随机森林表现稳定。</div>
+      </div>
+      <div class="mid">
+        <div class="h1">基于卷积神经网络的数值模拟</div>
+        <div class="mid_h2">利用卷积神经网路学习时间推进过程中流场的演化方式，并对流场未来的状态进行预测。</div>
+        <div class="mid_text"><span class="mid_h3">卷积神经网络被广泛应用于图像处理与识别。</span>Oliver Hennigh利用卷积算子代替通常LBM方法中的碰撞、迁移过程中数组的变换与赋值，并通过TensorFlow加以实现。</div>
+        <div class="mid_text">因此希望通过<span class="mid_h3">卷积神经网络</span>学习流场演化的过程，构建基于数据的流场求解方法。</div>
+        <div class="mid_text"><a href="https://github.com/loliverhennigh/Lattice-Boltzmann-fluid-flow-in-Tensorflow" class="button">CNN-LBM </a>
+          <a href="https://github.com/loliverhennigh/Phy-Net" class="button">Phy-Net </a>
+        </div>
+        
+        <div class="h3">主要目标</div>
+        <div class="mid_h2">Mathematical symmetries and invariants underlie nearly all physical laws in nature, suggesting that the search for many
+        natural laws is inseparably a search for conserved quantities and invariant equations. Automated techniques for generating,
+        collecting, and storing data from scientific measurements have become increasingly precise and powerful, but automated processes
+        for distilling this data into knowledge in the form of analytical natural laws have not kept pace. Thus, there is a pressing
+        practical need for improved forms of scientific data mining. ——science, 2009, 324(5923)</div>
+        <div class="mid_text">
+          <p><a href="http://science.sciencemag.org/content/324/5923/81" class="mid_menu">Distilling Free-Form Natural Laws from Experimental Data</a></p>
+          <p><a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/deep-learning-in-fluid-dynamics/F2EDDAB89563DE5157FC4B8342AD9C70" class="mid_menu">Deep learning in fluid dynamics</a></p>
+          <p><a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/reynolds-averaged-turbulence-modelling-using-deep-neural-networks-with-embedded-invariance/0B280EEE89C74A7BF651C422F8FBD1EB" class="mid_menu">Journal of Fluid Mechanics, 2016, 807: 155-166.</a></p>
+          <p><a href="https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/neural-network-approach-for-the-blind-deconvolution-of-turbulent-flows/210CB96198E054C6C7C5695136E84DE4" class="mid_menu">Journal of Fluid Mechanics, 2017, 831: 151-181.</a></p>
+        </div>
+      </div>
+      <div class="right">
+        <iframe width="220" height="60"
+				src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;icon=3&amp;py=shushanqu&amp;num=3"
+				style="overflow: hidden; border: 0px;"></iframe>
+        <div class="right_h1">近期工作</div>
+        <div class="services_area">
+          <div class="calendar_pic">
+            <div class="calendar_date">
+              <div align="center">4</div>
+            </div>
+            <div class="calendar_month">
+              <div align="center">Feb</div>
+            </div>
+          </div>
+          <div class="calendar_text">典型鸟类迁徙分布图</div>
+          <div class="calendar_text1"><img src="images/star.png" alt="Star" width="16" height="16" /> 完成图片美化和动态效果展示</div>
+        </div>
+        <div class="services_area">
+          <div class="calendar_pic">
+            <div class="calendar_date">
+              <div align="center">11</div>
+            </div>
+            <div class="calendar_month">
+              <div align="center">Feb</div>
+            </div>
+          </div>
+          <div class="calendar_text">回家</div>
+          <div class="calendar_text1"><img src="images/star.png" alt="Star" width="16" height="16" /> 争取买到票回家</div>
+        </div>
+      </div>
+    </div>
+    <div id="fottermain">
+      <div id="fotter">
+        <div class="fotter_linksarea">
+          <div align="center"><a href="http://home.ustc.edu.cn/~yu222/" class="fotter_link">主页</a> | <a href="https://github.com/YoungForever222" class="fotter_link">GitHub</a> | <a href="#" class="fotter_link">个人简历</a> | <a href="./html/Download.html" class="fotter_link">资料下载</a> | <a href="#" class="fotter_link">成果展示</a> | <a href="https://weibo.com/u/3936645743?refer_flag=1001030101_&is_hot=1" class="fotter_link">微博</a> | <a href="http://202.38.87.44:8080/forum.php" class="fotter_link">BBS</a> | <a href="http://www.ustc.edu.cn/" class="fotter_link">USTC</a></div>
+        </div>
+        <div class="fotter_copyrightsarea">
+          <div align="center">Email: <a href="mailto:yu222@mail.ustc.edu.cn" target="_blank" class="copyrightslink">yu222@mail.ustc.edu.cn</a> and QQ: <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1005636583&site=qq&menu=yes">
+            <img border="0" src="http://wpa.qq.com/pa?p=2:1005636583:41" alt="点击这里给我发消息" title="点击这里给我发消息" />
+          </a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<a href="https://www.freecounterstat.com" title="website counter"><img src="https://counter2.freecounter.ovh/private/freecounterstat.php?c=p8mgnwljjuh61ke7cc9h39ng3nukxmhf" border="0" title="website counter" alt="website counter"></a>
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+
+</html>
